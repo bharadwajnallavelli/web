@@ -1,0 +1,122 @@
+@keyframes starpulse {
+    from {opacity: 1;}
+    to {opacity: 0.2;}
+}
+@keyframes sunfire{
+    from { box-shadow: 0 0 50px #f5c91a;}
+    to {box-shadow: 0 0 100px #f5c91a;}
+    
+}
+@keyframes spin {
+    from {transform: rotate(0);}
+    to {transform: rotate(360deg);}
+    
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+}
+#universe {
+    background: black;
+    background: -webkit-radial-gradient(#555,#000);
+    background: -moz-radial-gradient(#555,#000);
+    background: -0-radial-gradient(#555,#000);
+    background: radial-gradient(#555,#000);
+}
+
+#stars {
+    height: 100%;
+    width: 100%;
+    background: url('images/stars.png');
+    position: relative;
+    z-index: 2;
+    animation-name: starpulse;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#sun {
+    position: absolute;
+    z-index: 4;
+    left: 50%;
+    top: 50%;
+    margin-top: -100px;
+    margin-left: -100px;
+    height: 200px;
+    width: 200px;
+    background: orange;
+    -webkit-border-radius:100%;
+    background: -webkit-radial-gradient(#f5c313,#ec7e08);
+    background: -webkit-radial-gradient(#f5c313,#ec7e08);
+    background: -webkit-radial-gradient(#f5c313,#ec7e08);
+    background: -webkit-radial-gradient(#f5c313,#ec7e08);
+    -webkit-box-shadow: 0 0 50px #f5c91a;
+    -moz-box-shadow: 0 0 50px #f5c91a;
+    -0-box-shadow: 0 0 50px #f5c91a;
+    box-shadow: 0 0 50px #f5c91a;
+    animation-name: sunfire;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
+}
+
+#earthorbit {
+    position: absolute;
+    height: 700px;
+    width: 600px;
+    z-index: 6;
+    top: 50%;
+    left: 50%;
+    margin-top: -300px;
+    margin-left: -300px;
+    -webkit-border-radius:100%;
+    -moz-border-radius:100%;
+    -o-border-radius:100%;
+    border-radius:100%;
+    animation-name: spin;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
+    
+}
+#earth {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -40px;
+    animation-name: spin;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#moonorbit
+{
+    
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    z-index: 4;
+    top: 50%;
+    left: -20px;
+    margin-top: -60px;
+    border-radius: 100%;
+    animation-name: spin;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: reverse;
+    
+}
+
+#moon {
+    height: 20px;
+    width: 20px;
+    background: gray;
+    background: radial-gradient(#ddd #888);
+    border-radius: 100%;
+}

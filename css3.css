@@ -1,0 +1,30 @@
+#box1 {
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    float: left;
+    padding: 50px;
+    box-sizing: border-box;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+#box2 {
+    margin-top: 100px;
+    width: 500px;
+    height: 500px;
+    background-color: cadetblue;
+    position: absolute;
+    float: left;
+}
+#insidebox {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    border-radius: 100px;
+    background: rgba(125,236,95,0.4);
+    background: linear-gradient(to top left,cyan,blue);
+    background: radial-gradient(yellow,cyan,blue,green,white);
+}

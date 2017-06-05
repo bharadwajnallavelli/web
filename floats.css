@@ -1,0 +1,33 @@
+#container {
+    width: 770px;
+    height: 600px;
+    background-color:darkgray;
+    margin: 0 auto;
+}
+#container h1 {
+    text-transform: uppercase;
+    font-family: 'Titillium Web', sans-serif;
+    text-align: center;
+    padding-top: 10px;
+}
+#container img {
+    margin-left: 20px;
+    float: left;
+    margin-right: 10px;
+}
+#container #img1 {
+    margin-left: 10px;
+    float: right;
+    margin-right: 10px;
+    margin-top: 50px;
+    margin-right: 100px;
+}
+#para {
+    width: 750px;
+    margin-left: 10px;
+    margin-top: 45px;
+    text-indent: 15px;
+}
+#clear:after {
+    clear: both;
+}

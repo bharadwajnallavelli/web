@@ -1,0 +1,32 @@
+#main {
+    background-color: aquamarine;
+    width: 600px;
+    height: 800px;
+    margin: 0 auto;
+    position: relative;
+}
+#relative {
+    width: 200px;
+    height: 200px;
+    background-color:antiquewhite;
+    position: relative;
+    left: 20px;
+    top: 20px;
+    right: 20px;
+}
+#absolute {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+#fixed {
+    width: 200px;
+    height: 200px;
+    background-color:chocolate;
+    position: fixed;
+    top: 0px;
+    left: 50px;
+}

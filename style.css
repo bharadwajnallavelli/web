@@ -1,0 +1,44 @@
+body {
+    background-color: azure;
+}
+#container {
+    width: 500px;
+    margin: 0 auto;
+}
+#container h1 {
+    font-family: 'Bitter', serif;
+}
+form {
+    font-family: 'Titillium Web', sans-serif;
+    
+}
+input[type="text"],
+input[type="email"],
+textarea{
+    display: block;
+    padding: 5px;
+    margin: solid 1px #454545;
+    font-family: 'Titillium Web', sans-serif;
+    width: 300px;
+    margin-left: 15px;
+     }
+fieldset {
+    padding: 10px;
+    border: 1px solid #aaa;
+    background-color:darkgray;
+}
+.button {
+    margin-top: 10px;
+    font-family: 'Titillium Web', sans-serif;
+    text-transform: uppercase;
+    margin-left: 15px;
+}
+legend {
+    width: 80px;
+    color:brown;
+    background-color: bisque;
+    border: 1px solid #aaa;
+}
+label {
+    margin-left: 15px;
+}
