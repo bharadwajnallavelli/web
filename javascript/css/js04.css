@@ -1,0 +1,40 @@
+body {
+    background-image: url(hotel.jpg);
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: center center fixed;
+    background-size: cover;
+    
+}
+#main-body {
+    width: 600px;
+    height: 500px;
+    box-sizing: border-box;
+    background-color: rgba(237, 201, 144, 0.85);
+    margin: 10px auto;
+    border-radius: 25px;
+    box-shadow: 0 0 10px #ffffff;
+    font-family: 'Baloo', cursive;
+    color: #bf4040;
+}
+#main-body h1 {
+    text-transform:uppercase;
+    font-family: 'Baloo', cursive;
+    color: #ffffff;
+    text-align: center;
+}
+label {
+    margin-left: 25px;
+    font-size: 20px;
+    display: block;
+    color: #ffffff;
+}
+#select {
+     font-family: 'Baloo', cursive;
+    border-radius: 5px;
+    padding-left: 2px;
+    margin-left: 25px;
+}
+#submit {
+    
+}

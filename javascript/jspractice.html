@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<head>
+<title>fundamentals</title>
+</head>
+<body>
+<p id="para"></p>
+<script>
+    function hotel(name, rooms, booked) {
+        this.name = name;
+        this.rooms = rooms;
+        this.booked = booked;
+        this.checkavailability = function() {
+            return this.rooms - this.booked;
+        };
+        }
+    var babbi = new hotel("babbi", 40, 20);
+        var mythri = new hotel("mythri", 60, 56);
+    var details = mythri.name + " " + mythri.checkavailability() + " " + "rooms available";
+    document.getElementById("para").innerHTML = details;
+</script>
+</body>

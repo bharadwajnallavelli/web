@@ -1,0 +1,72 @@
+body {
+    background-image: url(reasturent.jpg);
+    background-repeat: no-repeat;
+    background-position: center center fixed;
+    background-size: cover;
+    height: 100%;
+}
+#main {
+    height: 500px;
+    width: 400px;
+    margin: 20px auto;
+    background-color: beige;
+    border-radius: 5px;
+    box-shadow: 0 0 35px #f7f9f9;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+h1 {
+    text-transform: capitalize;
+    color: burlywood;
+    text-align: center;
+    display: block;
+    font-size:px;
+    font-family: 'Droid Sans', sans-serif;
+    border-bottom: solid 1px grey;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-bottom: 10px;
+}
+
+label {
+    font-family: 'Droid Sans', sans-serif;
+    display: block;
+    padding-bottom: 10px;
+    text-align: center;
+}
+input[type=text] {
+    width: 150px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 08px orange;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 130px;
+    font-family: 'Droid Sans', sans-serif;
+    padding-left: 5px;
+    font-size: 15px;
+}
+#select {
+    display: block;
+    margin: 0px 120px; 
+    font-family: 'Droid Sans', sans-serif;
+    margin-top: 0px;
+}
+#calculate {
+    display: block;
+    margin-top: 25px;
+    margin-left: 160px;
+    font-family: 'Droid Sans', sans-serif;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    box-shadow: 1px 1px grey;
+}
+#calculate:hover {
+    background-color: aqua;
+    height: 32px;
+}
+#display-tip {
+    margin: 40px 150px;
+    font-size: 45px;
+    color: cadetblue;
+}
